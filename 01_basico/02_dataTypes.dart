@@ -32,5 +32,12 @@ main() {
   xD''';
   // El ''' se utiliza para textos en multilineas
 
-  print(nombreCompleto);
+  // print(nombreCompleto);
+
+  //  ===== Booleans
+
+  bool isActive = true;
+  bool isNotActive = !isActive;
+
+  print(isNotActive);
 }
