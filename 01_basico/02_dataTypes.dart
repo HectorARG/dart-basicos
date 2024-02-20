@@ -75,4 +75,18 @@ main() {
   villanos2.add('Duende verde');
 
   // print(villanos2);
+
+  //  ===== Maps         ó conocidos tambien como(Diccionarios/Objetos Literales)
+  Map<String, dynamic> ironman = {
+    'nombre': 'Tony Starck',
+    'poder': 'Inteligencia y dinero',
+    'nivel': 90000
+  };
+
+  // print(ironman['nombre']);
+
+  // Esta es otra forma de definir los mapas
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll(ironman);
 }
