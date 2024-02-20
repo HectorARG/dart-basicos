@@ -46,5 +46,33 @@ main() {
   // List<String> villanosDeprecated = new List();
   List<String> villanos = ['Lex', 'Thanos', 'Majin boo'];
 
-  print(villanos);
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+  villanos.add('Duende verde');
+
+  // print(villanos);
+
+  var villanosSet = villanos.toSet();
+
+  // print(villanosSet);
+
+  var villanosLista = villanosSet.toList();
+
+  // print(villanosLista);
+
+  //  ===== Sets
+  // La principal diferencia entre las listas y los sets es que en las listas pueden existir duplicados mientras que en los sets no
+
+  Set<String> villanos2 = {'Lex', 'Thanos', 'Majin boo'};
+
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+  villanos2.add('Duende verde');
+
+  // print(villanos2);
 }
