@@ -39,5 +39,12 @@ main() {
   bool isActive = true;
   bool isNotActive = !isActive;
 
-  print(isNotActive);
+  // print(isNotActive);
+
+  //  ===== Listas
+  // Esta era la forma en que se creaban las listas antes en Dart ya se encuentra deprecado y no se puede usar en la version actual
+  // List<String> villanosDeprecated = new List();
+  List<String> villanos = ['Lex', 'Thanos', 'Majin boo'];
+
+  print(villanos);
 }
